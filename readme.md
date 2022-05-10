@@ -7,7 +7,7 @@ Design is our sub-team responsible for 3d modelling our parts, running the 3d pr
 [!button icon="arrow-right" iconAlign="right" text="Learn More"](/design)
 
 ## Electrical
-Electrical has the task of wiring and repairing the electrical and pneumatic systems. Electrical and Build are often seen togather, as they have a symbiotic relationship. They like to play with electricity and watching the news for shocking developments.
+Electrical has the task of wiring and repairing the electrical and pneumatic systems. Electrical and Build are often seen together, as they have a symbiotic relationship. They like to play with electricity and watching the news for shocking developments.
 
 [!button icon="arrow-right" iconAlign="right" text="Learn More"](/electrical)
 

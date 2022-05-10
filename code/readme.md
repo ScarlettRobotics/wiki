@@ -2,7 +2,7 @@
 The code team is an integral part to the team. As a member of code team, you will be required to:
 * Write code for the robot in Java
 * Help develop ideas for the robot
-* Communicate with Build, Electrical, Design, and Drive Team when making decitions
+* Communicate with Build, Electrical, Design, and Drive Team when making decisions
 * Test the code written to find bugs and issues
 * Implement fixes to any problems that occur along the way
 
@@ -11,5 +11,5 @@ The code used for the robot uses more advanced Java features (such as Object-Ori
 !!!
 
 !!!warning
-Members on code team are expected to be able to bring in their own laptop to use for code. While the team does have two laptops availible, they may be used by other subteam (such as Design).
+Members on code team are expected to be able to bring in their own laptop to use for code. While the team does have two laptops available, they may be used by another sub-team (such as Design).
 !!!

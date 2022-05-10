@@ -15,7 +15,7 @@ WPILib VSCode is a version of the Visual Studio Code text editor with pre-instal
 
 [!button icon="download" text="Download"](https://github.com/wpilibsuite/allwpilib/releases/)&nbsp;[!button variant="secondary" text="Instructions"](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html#extracting-the-installer)
 ===
-==- Otional
+==- Optional
 **Github Desktop**
 
 Github Desktop is a desktop application that allows you to create and manage repositories on Github. VSCode has a git client built in, but Github Desktop has additional features that may come in useful.
@@ -32,9 +32,9 @@ Git Bash is a terminal application that allows you to interact with Git. VSCode 
 
 ---
 
-**Pheonix Tuner**
+**Phoenix Tuner**
 
-Pheonix Tuner is a program that allows you to interact with CTRE motor controllers and set up the CAN bus. It is highly recommened at least one person on the team has this installed.
+Phoenix Tuner is a program that allows you to interact with CTRE motor controllers and set up the CAN bus. It is highly recommended at least one person on the team has this installed.
 
 [!button icon="download" text="Download"]()
 
@@ -42,7 +42,7 @@ Pheonix Tuner is a program that allows you to interact with CTRE motor controlle
 
 **RoboRIO Imaging Tool**
 
-RoboRIO Imaging Tool is a program that allows you to manage the firmware on the RoboRIO. It is highly recommened at least one person on the team has this installed.
+RoboRIO Imaging Tool is a program that allows you to manage the firmware on the RoboRIO. It is highly recommended at least one person on the team has this installed.
 
 [!button icon="download" text="Download"]()
 
@@ -50,7 +50,7 @@ RoboRIO Imaging Tool is a program that allows you to manage the firmware on the 
 
 **FRC Radio Configuration Utility**
 
-FRC Radio Configuration Utility is a program that allows you to manage the radio configuration. It is highly recommened at least one person on the team has this installed.
+FRC Radio Configuration Utility is a program that allows you to manage the radio configuration. It is highly recommended at least one person on the team has this installed.
 
 [!button icon="download" text="Download"]()
 ===
