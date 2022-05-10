@@ -1,0 +1,15 @@
+input: .
+output: .retype
+url: # Add your website address here
+branding:
+  title: 4733 FRC
+  label: Wiki
+links:
+- text: Home
+  link: https://scarlettrobotics.com
+- text: FRC
+  link: https://frc.wiki.scarlettrobotics.com
+- text: FTC
+  link: https://ftc.wiki.scarlettrobotics.com
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
