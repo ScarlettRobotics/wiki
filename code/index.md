@@ -1,3 +1,7 @@
+---
+icon: "code"
+expanded: false
+---
 # Code
 The code team is an integral part to the team. As a member of code team, you will be required to:
 * Write code for the robot in Java

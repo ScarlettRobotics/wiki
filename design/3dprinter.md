@@ -25,7 +25,7 @@ Please make sure the following settings are set in the IIIP Cura software:
 * **Bed Temp (C):** 50
 ### Support
 * **Support Type:** Change as needed. 
-    * *Touching* buildplate if no overhang above model. 
+    * *Touching build plate* if no overhang above model. 
     * *Everywhere* if overhang above model
 * **Platform Adhesion type:** 
     * *Brim* for less expansive prints. 

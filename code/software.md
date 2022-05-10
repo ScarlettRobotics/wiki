@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 10
 ---
 # Software
 Multiple pieces of software are required to program the robot. While not every piece of software is required, having it will make your life easier.
