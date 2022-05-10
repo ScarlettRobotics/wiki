@@ -10,26 +10,30 @@
     <meta name="generator" content="Retype 2.2">
 
     <!-- Primary Meta Tags -->
-    <title>Creating a Project</title>
-    <meta name="title" content="Creating a Project">
+    <title>Project Setup</title>
+    <meta name="title" content="Project Setup">
+    <meta name="description" content="If a project for the year already exists, please clone the repo from github rather than creating a new project." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://scarlettrobotics.com/4733-FRC-Wiki/code/project/">
-    <meta property="og:title" content="Creating a Project">
+    <meta property="og:title" content="Project Setup">
+    <meta property="og:description" content="If a project for the year already exists, please clone the repo from github rather than creating a new project.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="http://scarlettrobotics.com/4733-FRC-Wiki/code/project/">
-    <meta property="twitter:title" content="Creating a Project">
+    <meta property="twitter:title" content="Project Setup">
+    <meta property="twitter:description" content="If a project for the year already exists, please clone the repo from github rather than creating a new project.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/4733-FRC-Wiki/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/4733-FRC-Wiki/resources/css/retype.css?v=2.2.705509873603" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/4733-FRC-Wiki/resources/css/retype.css?v=2.2.705534760380" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/4733-FRC-Wiki/resources/js/config.js?v=2.2.705509873603" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/4733-FRC-Wiki/resources/js/config.js?v=2.2.705534760380" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/4733-FRC-Wiki/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/4733-FRC-Wiki/resources/js/lunr.js?v=2.2.705509873603" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/4733-FRC-Wiki/resources/js/lunr.js?v=2.2.705534760380" defer></script>
+    <script id="prism-js" type="text/javascript" src="/4733-FRC-Wiki/resources/js/prism.js?v=2.2.705534760380" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -171,12 +175,114 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="creating-a-project" class="break-words">
+<doc-anchor-target id="project-setup" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#creating-a-project">#</doc-anchor-trigger>
-        <span>Creating a Project</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#project-setup">#</doc-anchor-trigger>
+        <span>Project Setup</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="creating-a-new-project">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creating-a-new-project">#</doc-anchor-trigger>
+        <span>Creating a new Project</span>
+    </h2>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Existing Projects</h5>
+<p>If a project for the year already exists, please clone the repo from github rather than creating a new project.</p>
+        </div>
+    </div>
+</div>
+<ol>
+<li>Open WPILib VSCode</li>
+<li>Click the &#x27;W&#x27; icon in the top right corner.</li>
+<li>Choose Create New Project from the dropdown menu.</li>
+<li>Click select project type</li>
+<li>Choose Template &gt; Java &gt; Command Robot</li>
+<li>Choose a location on your hard drive to create the project</li>
+<li>Give the project a name. The recommended name is <code v-pre>4733 FRC {YEAR}</code>, where <code v-pre>{YEAR}</code> is the current year.</li>
+<li>Click generate project.</li>
+</ol>
+<doc-anchor-target id="acquiring-an-existing-project-from-github">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#acquiring-an-existing-project-from-github">#</doc-anchor-trigger>
+        <span>Acquiring an Existing Project from Github</span>
+    </h2>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Github Organization</h5>
+<p>You must be in the ScarlettRobotics Github organization to clone and contribute to the codebase. If you are not part of the organization, talk to the head of the code team to be added.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="using-vscodes-git-client">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#using-vscodes-git-client">#</doc-anchor-trigger>
+        <span>Using VSCode&#x27;s Git Client</span>
+    </h3>
+</doc-anchor-target>
+<ol>
+<li>Open WPILib VSCode</li>
+<li>Click the git tab on the left</li>
+<li>Click the clone button</li>
+<li>Choose Clone from Github in the dropdown menu.
+<ol type="a">
+<li>If asked to sign in, sign in with your github account.</li>
+</ol>
+</li>
+<li>Choose this years project repository from the list.</li>
+</ol>
+<doc-anchor-target id="using-github-desktop">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#using-github-desktop">#</doc-anchor-trigger>
+        <span>Using Github Desktop</span>
+    </h3>
+</doc-anchor-target>
+<ol>
+<li>Open Github Desktop</li>
+<li>Choose File &gt; Clone Repository</li>
+<li>Choose this years project repository from the list.</li>
+</ol>
+<doc-anchor-target id="using-git-cli">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#using-git-cli">#</doc-anchor-trigger>
+        <span>Using Git CLI</span>
+    </h3>
+</doc-anchor-target>
+<ol>
+<li>Open a terminal window.</li>
+<li>Find the URL of the git repository for this year&#x27;s project.</li>
+<li>Clone the repository.</li>
+</ol>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">$ git clone {url} {local location}</code></pre>
+</doc-codeblock></div>
+<ol start="4">
+<li>Open the project in VSCode.</li>
+</ol>
 
                                 
                                 <!-- Required only on API pages -->
@@ -202,10 +308,10 @@
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/4733-FRC-Wiki/design/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/4733-FRC-Wiki/code/structure/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Design</span>
+                                                <span class="block mt-1">Project Structure</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -249,6 +355,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Creating a Project", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Project Setup", icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
