@@ -1,3 +1,7 @@
+---
+icon: "book"
+---
+
 # Welcome to the 4733 FRC Wiki!
 Welcome to the 4733 Scarlett Robotics Team wiki. Our group is made up of 4 sub-teams: Design, Electrical, Build and Code. In each sub-team you will learn various skills and methods to design, build, wire and code. Each sub-team has specific roles and tasks to complete. 
 

@@ -4,6 +4,12 @@ url: http://scarlettrobotics.com/4733-FRC-Wiki/
 branding:
   title: 4733 FRC
   label: Wiki
+  colors:
+    label:
+      text: "#ff2e1f"
+      background: "#ffe1e1"
+edit:
+  repo: "https://github.com/ScarlettRobotics/4733-FRC-Wiki/edit/"
 links:
 - text: Home
   link: https://scarlettrobotics.com

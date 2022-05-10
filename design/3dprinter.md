@@ -1,9 +1,9 @@
 # 3D Printer
 
-!!!info 3d Printer Rules
-1. All 3d print files must be in stl format and brought to a senior to be sliced and printed
-2. Personal prints will cost 10&#162; per meter of filament used
-3. Failure to comply with these rule will result in loss of 3d printer privileges
+!!!danger 3d Printer Rules
+* All 3d print files must be in stl format and brought to a senior to be sliced and printed
+* Personal prints will cost 10&#162; per meter of filament used
+* Failure to comply with these rules will result in loss of 3d printer privileges
 !!!
 ## Finding a file to print and slicing
 Ensure the file is stl. Import the file into a slicer along with any other files you would like to print. The preferred slicer for the Monoprice printer is IIIP Cura a python based Cura version. If any other 3d printers have been obtained use Prusa3d slicer.
