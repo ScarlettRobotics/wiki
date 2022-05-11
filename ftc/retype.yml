@@ -1,0 +1,21 @@
+input: .
+output: .retype
+url: http://scarlettrobotics.com/wiki/ftc
+branding:
+  title: 4733 FRC
+  label: Wiki
+  colors:
+    label:
+      text: "#ff2e1f"
+      background: "#ffe1e1"
+edit:
+  repo: "https://github.com/ScarlettRobotics/4733-FRC-Wiki/edit/"
+links:
+- text: Home
+  link: https://scarlettrobotics.com
+- text: FRC
+  link: https://frc.wiki.scarlettrobotics.com
+- text: FTC
+  link: https://ftc.wiki.scarlettrobotics.com
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."

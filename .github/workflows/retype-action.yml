@@ -15,7 +15,19 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: retypeapp/action-build@latest
+        with:
+          config: frc
 
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
+          directory: frc
+
+      - uses: retypeapp/action-build@latest
+        with:
+          config: ftc
+
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
+          directory: ftc
