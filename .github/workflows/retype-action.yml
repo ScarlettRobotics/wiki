@@ -16,7 +16,7 @@ jobs:
 
       - uses: retypeapp/action-build@latest
         with:
-          config: frc
+          config: frc.yml
 
       - uses: retypeapp/action-github-pages@latest
         with:
@@ -25,7 +25,7 @@ jobs:
 
       - uses: retypeapp/action-build@latest
         with:
-          config: ftc
+          config: ftc.yml
 
       - uses: retypeapp/action-github-pages@latest
         with:

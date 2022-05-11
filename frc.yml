@@ -1,6 +1,6 @@
-input: .
-output: .retype
-url: http://scarlettrobotics.com/4733-FRC-Wiki/
+input: frc
+output: .retype_frc
+url: http://scarlettrobotics.com/wiki/frc
 branding:
   title: 4733 FRC
   label: Wiki
@@ -9,13 +9,13 @@ branding:
       text: "#ff2e1f"
       background: "#ffe1e1"
 edit:
-  repo: "https://github.com/ScarlettRobotics/4733-FRC-Wiki/edit/"
+  repo: "https://github.com/ScarlettRobotics/wiki/edit/"
 links:
 - text: Home
   link: https://scarlettrobotics.com
 - text: FRC
-  link: https://frc.wiki.scarlettrobotics.com
+  link: https://wiki.scarlettrobotics.com/frc
 - text: FTC
-  link: https://ftc.wiki.scarlettrobotics.com
+  link: https://wiki.scarlettrobotics.com/ftc
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
