@@ -16,18 +16,18 @@ jobs:
 
       - uses: retypeapp/action-build@latest
         with:
-          config: frc.yml
-
-      - uses: retypeapp/action-github-pages@latest
-        with:
-          update-branch: true
-          directory: frc
-
-      - uses: retypeapp/action-build@latest
-        with:
           config: ftc.yml
 
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
           directory: ftc
+
+      - uses: retypeapp/action-build@latest
+        with:
+          config: frc.yml
+
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
+          directory: frc
