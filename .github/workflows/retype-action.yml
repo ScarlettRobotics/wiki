@@ -22,6 +22,8 @@ jobs:
         with:
           update-branch: true
           directory: ftc
+          
+      - uses: actions/checkout@v2
 
       - uses: retypeapp/action-build@latest
         with:
