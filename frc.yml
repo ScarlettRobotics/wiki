@@ -10,6 +10,7 @@ branding:
       background: "#ffe1e1"
 edit:
   repo: "https://github.com/ScarlettRobotics/wiki/edit/"
+  base: frc
 links:
 - text: Home
   link: https://scarlettrobotics.com
