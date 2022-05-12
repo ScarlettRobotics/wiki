@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: http://scarlettrobotics.com/4733-FRC-Wiki/sitemap.xml.gz
