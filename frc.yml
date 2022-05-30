@@ -12,11 +12,11 @@ edit:
   repo: "https://github.com/ScarlettRobotics/wiki/edit/"
   base: frc
 links:
-- text: Home
-  link: https://scarlettrobotics.com
+- text: Team
+  link: https://scarlettrobotics.com/wiki
 - text: FRC
-  link: https://wiki.scarlettrobotics.com/frc
+  link: https://scarlettrobotics.com/wiki/frc
 - text: FTC
-  link: https://wiki.scarlettrobotics.com/ftc
+  link: https://scarlettrobotics.com/wiki/ftc
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."

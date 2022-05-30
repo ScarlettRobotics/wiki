@@ -33,3 +33,14 @@ jobs:
         with:
           update-branch: true
           directory: frc
+          
+      - uses: actions/checkout@v2
+
+      - uses: retypeapp/action-build@latest
+        with:
+          config: team.yml
+
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
+          directory: team

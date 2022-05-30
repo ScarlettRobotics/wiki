@@ -1,12 +1,12 @@
-input: ftc
-output: .retype_ftc
+input: team
+output: .retype_team
 url: http://scarlettrobotics.com/wiki/ftc
 branding:
-  title: 20718 FTC
+  title: Scarlett Robotics
   label: Wiki
 edit:
   repo: "https://github.com/ScarlettRobotics/wiki/edit/"
-  base: ftc
+  base: team
 links:
 - text: Team
   link: https://scarlettrobotics.com/wiki
