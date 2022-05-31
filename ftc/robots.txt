@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: http://scarlettrobotics.com/wiki/ftc/sitemap.xml.gz
