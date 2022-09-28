@@ -1,0 +1,22 @@
+input: team
+output: .retype_team
+url: http://scarlettrobotics.com/wiki
+branding:
+  title: Scarlett Robotics
+  label: Wiki 
+  colors:
+    label:
+      text: "#ededed"
+      background: "#636363"
+edit:
+  repo: "https://github.com/ScarlettRobotics/wiki/edit/"
+  base: team
+links:
+- text: Team
+  link: https://scarlettrobotics.com/wiki
+- text: FRC
+  link: https://scarlettrobotics.com/wiki/frc
+- text: FTC
+  link: https://scarlettrobotics.com/wiki/ftc
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."

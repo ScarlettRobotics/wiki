@@ -1,0 +1,18 @@
+input: ftc
+output: .retype_ftc
+url: http://scarlettrobotics.com/wiki/ftc
+branding:
+  title: 20718 FTC
+  label: Wiki
+edit:
+  repo: "https://github.com/ScarlettRobotics/wiki/edit/"
+  base: ftc
+links:
+- text: Team
+  link: https://scarlettrobotics.com/wiki
+- text: FRC
+  link: https://scarlettrobotics.com/wiki/frc
+- text: FTC
+  link: https://scarlettrobotics.com/wiki/ftc
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."

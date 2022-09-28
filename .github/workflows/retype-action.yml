@@ -1,0 +1,45 @@
+name: Publish Retype powered website to GitHub Pages
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    name: Publish to retype branch
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: retypeapp/action-build@latest
+        with:
+          config: team.yml
+
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
+          
+      - uses: actions/checkout@v2
+
+      - uses: retypeapp/action-build@latest
+        with:
+          config: ftc.yml
+
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
+          directory: ftc
+          
+      - uses: actions/checkout@v2
+
+      - uses: retypeapp/action-build@latest
+        with:
+          config: frc.yml
+
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
+          directory: frc
