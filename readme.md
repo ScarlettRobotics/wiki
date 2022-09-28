@@ -2,10 +2,10 @@
 This wiki is designed to help teach new members everything about how to build a robot. This can be used as a training & teaching tool for new members, or as a way to kickstart the team should something happen to disrupt the team's ability to function.
 
 **FRC Wiki:**
-https://scarlettrobotics.com/wiki/frc/
+https://scarlettrobotics.org/wiki/frc/
 
 **FTC Wiki:**
-https://scarlettrobotics.com/wiki/ftc/
+https://scarlettrobotics.org/wiki/ftc/
 
 ## Contributing
 Contributing to the wiki is super easy. Simply edit or add a markdown (.md) file to the correct folder. all FRC documentation should be placed in the 'frc' folder, and all FTC documentation should be placed in the 'ftc' folder.
