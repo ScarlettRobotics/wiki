@@ -1,11 +1,13 @@
-input: .
-output: .retype
-url: # Add your website address here
+input: src
+url: http://scarlettrobotics.com/wiki/
 branding:
-  title: Project Name
-  label: Docs
+  title: 20718 FTC
+  label: Wiki
+edit:
+  repo: "https://github.com/ScarlettRobotics/wiki/edit/"
+  base: ftc
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+- text: Home
+  link: https://scarlettrobotics.com
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."

@@ -8,7 +8,7 @@ https://scarlettrobotics.com/wiki/frc/
 https://scarlettrobotics.com/wiki/ftc/
 
 ## Contributing
-Contributing to the wiki is super easy. Simply edit or add a markdown (.md) file to the correct folder. all FRC documentation should be placed in the 'frc' folder, and all FTC documentation should be placed in the 'ftc' folder.
+Contributing to the wiki is super easy. Simply edit or add a markdown (.md) file to the src folder.
 
 Markdown is designed to be easily read and understood by anyone. To learn more about markdown formatting, see [this link](https://www.markdownguide.org/).
 
@@ -21,7 +21,7 @@ To see changes you make rendered on a local website, follow the instructions bel
 2. Make sure Node.js and NPM are installed.
 3. Make sure retype is installed globally on your machine.
     a. To do this, run the following command in your terminal: `npm install retypeapp --global`
-4. In the directory you cloned the repo to, run the following command: `retype watch <wiki>.yml`, where &lt;wiki&gt; is one of 'frc' and 'ftc'.
+4. In the directory you cloned the repo to, run the following command: `retype watch`
 5. A web browser will open up and you can view the wiki. Any changes made to local files will be visible in the browser.
 
 Once you are happy with the changes, simply push changes to the main branch on github. If you don't have permission, create a pull request.

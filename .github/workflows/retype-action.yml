@@ -16,30 +16,8 @@ jobs:
 
       - uses: retypeapp/action-build@latest
         with:
-          config: team.yml
+          config: retype.yml
 
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
-          
-      - uses: actions/checkout@v2
-
-      - uses: retypeapp/action-build@latest
-        with:
-          config: ftc.yml
-
-      - uses: retypeapp/action-github-pages@latest
-        with:
-          update-branch: true
-          directory: ftc
-          
-      - uses: actions/checkout@v2
-
-      - uses: retypeapp/action-build@latest
-        with:
-          config: frc.yml
-
-      - uses: retypeapp/action-github-pages@latest
-        with:
-          update-branch: true
-          directory: frc
