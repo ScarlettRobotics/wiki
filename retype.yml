@@ -15,6 +15,6 @@ edit:
 links:
 - text: Home
   link: https://scarlettrobotics.com
-  icon: :house:
+  icon: house
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
