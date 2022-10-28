@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/wiki">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.720309400476">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.720309881064">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -31,11 +31,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/wiki/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="resources/css/retype.css?v=2.4.0.720309400476" rel="stylesheet" />
+    <link href="resources/css/retype.css?v=2.4.0.720309881064" rel="stylesheet" />
 
-    <script type="text/javascript" src="resources/js/config.js?v=2.4.0.720309400476" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="resources/js/config.js?v=2.4.0.720309881064" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=2.4.0.720309400476" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=2.4.0.720309881064" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -50,8 +50,12 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="" class="flex items-center leading-snug text-2xl">
-                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">20718 FTC</span>
+                        <a id="docs-site-logo" href="" class="flex items-center leading-snug text-xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="src/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="src/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Scarlett Robotics</span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Wiki</span>
                     </div>
         
@@ -191,10 +195,10 @@
     </div>
 </div>
 <p>Welcome to the Scarlett Robotics Team wiki. Our group is made up of 4 sub-teams: Design, Build, Code and PR. In each sub-team you will learn various skills and methods to design, build, wire and code. Each sub-team has specific roles and tasks to complete.</p>
-<doc-anchor-target id="build">
+<doc-anchor-target id="buildelectrical">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#build">#</doc-anchor-trigger>
-        <span>Build</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#buildelectrical">#</doc-anchor-trigger>
+        <span>Build/Electrical</span>
     </h2>
 </doc-anchor-target>
 <p>Build team assumes the role of the constructors of the team. They build the robots frame and various subsystems. They are also responsible for wiring the robot. Often seen in their natural habitat surrounded by tools and metal. They communicate through a series of grunts and metal screeching sounds.</p>
@@ -208,7 +212,7 @@
         <span>Code</span>
     </h2>
 </doc-anchor-target>
-<p>The Code sub-team are entrusted with making the robot have a brain. Often seen working with Undertale of Legend of Zelda music in the background and communicating through beeps and robotic screeching. Do not enter their workspace without energy drinks and sugar.</p>
+<p>The Code sub-team are entrusted with making the robot have a brain. Often communicating through beeps and robotic screeching. Do not enter their workspace without energy drinks and sugar.</p>
 <p><a href="code/" class="no-link inline-flex items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-500 hover:bg-blue-700 text-white px-4 h-10 text-sm rounded-md">
     <span>Learn More</span>
     <span><svg xmlns="http://www.w3.org/2000/svg" class="mb-px inline-flex ml-2" width="18" height="18" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path fill-rule="evenodd" d="M13.22 19.03a.75.75 0 001.06 0l6.25-6.25a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 10-1.06 1.06l4.97 4.97H3.75a.75.75 0 000 1.5h14.44l-4.97 4.97a.75.75 0 000 1.06z"/></g></svg></span>
@@ -219,7 +223,7 @@
         <span>Design</span>
     </h2>
 </doc-anchor-target>
-<p>Design is our sub-team responsible for 3d modelling our parts, running the 3d printer and running simulations of the robot. You should not approach their enclosure without pizza or energy drinks. They are a subgenus of the Code genus.</p>
+<p>Design is our sub-team responsible for 3d modelling our parts, running the 3d printers and running simulations of the robot. They are a subgenus of the Code genus.</p>
 <p><a href="design/" class="no-link inline-flex items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-500 hover:bg-blue-700 text-white px-4 h-10 text-sm rounded-md">
     <span>Learn More</span>
     <span><svg xmlns="http://www.w3.org/2000/svg" class="mb-px inline-flex ml-2" width="18" height="18" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path fill-rule="evenodd" d="M13.22 19.03a.75.75 0 001.06 0l6.25-6.25a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 10-1.06 1.06l4.97 4.97H3.75a.75.75 0 000 1.5h14.44l-4.97 4.97a.75.75 0 000 1.06z"/></g></svg></span>
