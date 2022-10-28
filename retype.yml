@@ -1,8 +1,9 @@
 input: src
 url: http://scarlettrobotics.com/wiki/
 branding:
-  title: 20718 FTC
+  title: Scarlett Robotics
   label: Wiki
+  logo: ./src/logo.png
 edit:
   repo: "https://github.com/ScarlettRobotics/wiki/edit/"
   base: ftc

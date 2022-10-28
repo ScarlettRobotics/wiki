@@ -10,17 +10,17 @@ This Wiki is still a work in progress. There may be issues with the current cont
 
 Welcome to the Scarlett Robotics Team wiki. Our group is made up of 4 sub-teams: Design, Build, Code and PR. In each sub-team you will learn various skills and methods to design, build, wire and code. Each sub-team has specific roles and tasks to complete. 
 
-## Build
+## Build/Electrical
 Build team assumes the role of the constructors of the team. They build the robots frame and various subsystems. They are also responsible for wiring the robot. Often seen in their natural habitat surrounded by tools and metal. They communicate through a series of grunts and metal screeching sounds.
 
 [!button icon="arrow-right" iconAlign="right" text="Learn More"](/build)
 
 ## Code
-The Code sub-team are entrusted with making the robot have a brain. Often seen working with Undertale of Legend of Zelda music in the background and communicating through beeps and robotic screeching. Do not enter their workspace without energy drinks and sugar.
+The Code sub-team are entrusted with making the robot have a brain. Often communicating through beeps and robotic screeching. Do not enter their workspace without energy drinks and sugar.
 
 [!button icon="arrow-right" iconAlign="right" text="Learn More"](/code) 
 
 ## Design
-Design is our sub-team responsible for 3d modelling our parts, running the 3d printer and running simulations of the robot. You should not approach their enclosure without pizza or energy drinks. They are a subgenus of the Code genus.
+Design is our sub-team responsible for 3d modelling our parts, running the 3d printers and running simulations of the robot. They are a subgenus of the Code genus.
 
 [!button icon="arrow-right" iconAlign="right" text="Learn More"](/design)
