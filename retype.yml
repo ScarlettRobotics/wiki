@@ -11,6 +11,7 @@ branding:
       background: "#fd0101"
 edit:
   repo: "https://github.com/ScarlettRobotics/wiki/edit/"
+  base: /src
 links:
 - text: Home
   link: https://scarlettrobotics.com
