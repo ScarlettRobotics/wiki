@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://scarlettrobotics.com/wiki/sitemap.xml.gz
+Sitemap: http://wiki.scarlettrobotics.com/sitemap.xml.gz
