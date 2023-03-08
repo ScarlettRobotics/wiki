@@ -17,8 +17,12 @@ To see changes you make rendered on a local website, follow the instructions bel
 1. Clone the repository to your local machine.
 2. Make sure Node.js and NPM are installed.
 3. Make sure retype is installed globally on your machine.
+
     a. To do this, run the following command in your terminal: `npm install retypeapp --global`
-    b. Winodws: you may need to change your PowerShell script running permissions to run unsigned code
+    
+    b. Windows: You may need to change your PowerShell script running permissions to run unsigned code.
+    
+    
 4. In the directory you cloned the repo to, run the following command: `retype watch`
 5. A web browser will open up and you can view the wiki. Any changes made to local files will be visible in the browser.
 
