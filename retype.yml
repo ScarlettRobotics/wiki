@@ -1,10 +1,10 @@
-input: src
+input: ./src
 url: http://wiki.scarlettrobotics.com
+favicon:  assets/SLogo.png
 branding:
   title: Scarlett Robotics
-  label: Wiki
-  logo:  logo.png
-  favicon:  logo.png
+  label: FTC Wiki
+  logo:  assets/LLogo.png
   colors:
     label: 
       text: "#ffffff"
@@ -12,9 +12,36 @@ branding:
 edit:
   repo: "https://github.com/ScarlettRobotics/wiki/edit/"
   base: /src
+  label: Edit
+editor:
+  enabled: true
 links:
 - text: Home
   link: https://scarlettrobotics.com
-  icon: house
+  icon: home
+- text: Instagram
+  link: https://instagram.com/scarlettrobotics
+  icon: device-camera
+- text: 20718
+  link: https://ftc-events.firstinspires.org/team/20718
+  icon: trophy
+- text: 22531
+  link: https://ftc-events.firstinspires.org/team/22531
+  icon: trophy
+- text: FIRST
+  link: https://firstinspires.org
+  icon: dependabot
+- text: FTC Game 
+  link: https://www.firstinspires.org/robotics/ftc/game-and-season
+  icon: book
+- text: FIRST Alberta
+  link: https://firstalberta.ca/ftc-events/
+  icon: location  
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+meta:
+  title: " | Scarlett Robotics Wiki"
+search:
+  noResultsFoundMsg: "Sorry, we can't find anything."
+  hotkeys:
+    - "/"
