@@ -24,3 +24,7 @@ The Code sub-team are entrusted with making the robot have a brain. Often commun
 Design is our sub-team responsible for 3d modelling our parts, running the 3d printers and running simulations of the robot. They are a subgenus of the Code genus.
 
 [!button icon="arrow-right" iconAlign="right" text="Learn More"](/design)
+
+## Public Relations
+The PR team is in charge of creating and maintaining connections within our school and local communities, as well as contacting sponsors and running fundraisers. Insert funny sentence here.
+[!button icon="arrow-right" iconAlign="right" text="Learn More"](/public relations)
