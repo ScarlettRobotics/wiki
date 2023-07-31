@@ -2,13 +2,16 @@
 icon: "book"
 ---
 
-# Welcome to the Scarlett Robotics FTC Wiki!
+# Welcome!
+
+Welcome to the Scarlett Robotics FTC Wiki. We are a High School *FIRST Tech Challenge Team* based out of Calgary, Alberta. Our team numbers are **20718** and **22531**. 
+
+The wiki is seperated into sections coresponding to different aspects of our FTC team. These sections corespond to our "sub-teams".  
 
 !!!warning Work In Progress
 This Wiki is still a work in progress. There may be issues with the current content, or may be missing important details.
+Please contact the team on Slack for suggestions/requests.
 !!!
-
-Welcome to the Scarlett Robotics Team wiki. Our group is made up of 4 sub-teams: Design, Build, Code and PR. In each sub-team you will learn various skills and methods to design, build, wire and code. Each sub-team has specific roles and tasks to complete. 
 
 ## Build/Electrical
 Build team assumes the role of the constructors of the team. They build the robots frame and various subsystems. They are also responsible for wiring the robot. Often seen in their natural habitat surrounded by tools and metal. They communicate through a series of grunts and metal screeching sounds.
