@@ -19,6 +19,9 @@ links:
 - text: Home
   link: https://scarlettrobotics.com
   icon: home
+- text: GitHub Org
+  link: https://github.com/ScarlettRobotics/
+  icon: mark-github
 - text: Instagram
   link: https://instagram.com/scarlettrobotics
   icon: device-camera
@@ -31,7 +34,7 @@ links:
 - text: FIRST
   link: https://firstinspires.org
   icon: dependabot
-- text: FTC Game 
+- text: FTC Game
   link: https://www.firstinspires.org/robotics/ftc/game-and-season
   icon: book
 - text: FIRST Alberta
