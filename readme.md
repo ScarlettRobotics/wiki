@@ -23,7 +23,7 @@ To see changes you make rendered on a local website, follow the instructions bel
     b. Windows: You may need to change your PowerShell script running permissions to run unsigned code.
     
     
-4. In the directory you cloned the repo to, run the following command: `retype watch`
+4. In the directory you cloned the repo to, run the following command: `retype start`
 5. A web browser will open up and you can view the wiki. Any changes made to local files will be visible in the browser.
 
 Once you are happy with the changes, simply push changes to the main branch on GitHub. If you don't have permission, create a pull request.
