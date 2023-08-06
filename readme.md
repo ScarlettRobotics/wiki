@@ -18,9 +18,9 @@ To see changes you make rendered on a local website, follow the instructions bel
 2. Make sure Node.js and NPM are installed.
 3. Make sure retype is installed globally on your machine.
 
-    a. To do this, run the following command in your terminal: `npm install retypeapp --global`
+    To do this, run the following command in your terminal: `npm install retypeapp --global`
     
-    b. Windows: You may need to change your PowerShell script running permissions to run unsigned code.
+    Windows: You may need to change your PowerShell script running permissions to run unsigned code.
     
     
 4. In the directory you cloned the repo to, run the following command: `retype start`
