@@ -12,7 +12,7 @@ Markdown is designed to be easily read and understood by anyone. To learn more a
 Retype, the wiki software used has additional formatting tools. To learn more about retype, see [this link](https://retype.com/components/).
 
 ## Local Server
-To see changes you make rendered on a local website, follow the instructions below.
+To see changes you make rendered on a local website in real time, follow the instructions below.
 
 1. Clone the repository to your local machine.
 2. Make sure Node.js and NPM are installed.
